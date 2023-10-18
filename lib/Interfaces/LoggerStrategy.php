@@ -2,6 +2,9 @@
 
 namespace Phoenix\Logger\Interfaces;
 
+use Exception;
+use Phoenix\Logger\Enums\LoggerLevel;
+
 interface LoggerStrategy
 {
     /**
@@ -94,4 +97,15 @@ interface LoggerStrategy
      * @return void
      */
     public function debug(string $message, array $context = []): void;
+
+    /**
+     * Logs an exception.
+     *
+     * @param Exception $e
+     * @param string $message
+     * @param array $context
+     * @param LoggerLevel::*&string $level
+     * @return mixed
+     */
+    public function logException(Exception $e, string $message = '', array $context = [], string $level = null);
 }
