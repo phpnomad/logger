@@ -12,6 +12,18 @@
         {
             "type": "vcs",
             "url": "git@github.com:rooted-phoenix/tests.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:rooted-phoenix/di.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:rooted-phoenix/singleton.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:rooted-phoenix/facade.git"
         }
     ],
     "autoload": {
@@ -31,7 +43,10 @@
         }
     ],
     "require-dev": {
-        "phoenix/tests": "^0.1.0"
+        "phoenix/tests": "^0.1.0",
+        "phoenix/facade": "dev-main",
+        "phoenix/singleton": "dev-main",
+        "phoenix/di": "dev-main"
     },
     "config": {
         "allow-plugins": {
