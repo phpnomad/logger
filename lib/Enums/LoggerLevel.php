@@ -1,6 +1,6 @@
 <?php
 
-namespace Phoenix\Logger\Enums;
+namespace PHPNomad\Logger\Enums;
 
 class LoggerLevel
 {

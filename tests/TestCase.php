@@ -1,9 +1,9 @@
 <?php
 
-namespace Phoenix\Logger\Tests;
+namespace PHPNomad\Logger\Tests;
 
 
-use Phoenix\Tests\TestCase as CoreTestCase;
+use PHPNomad\Tests\TestCase as CoreTestCase;
 
 class TestCase extends CoreTestCase
 {

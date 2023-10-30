@@ -1,10 +1,10 @@
 <?php
 
-namespace Phoenix\Logger\Traits;
+namespace PHPNomad\Logger\Traits;
 
 use Exception;
-use Phoenix\Logger\Enums\LoggerLevel;
-use Phoenix\Logger\Interfaces\LoggerStrategy;
+use PHPNomad\Logger\Enums\LoggerLevel;
+use PHPNomad\Logger\Interfaces\LoggerStrategy;
 
 trait CanLogException
 {

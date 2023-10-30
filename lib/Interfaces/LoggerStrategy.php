@@ -1,9 +1,9 @@
 <?php
 
-namespace Phoenix\Logger\Interfaces;
+namespace PHPNomad\Logger\Interfaces;
 
 use Exception;
-use Phoenix\Logger\Enums\LoggerLevel;
+use PHPNomad\Logger\Enums\LoggerLevel;
 
 interface LoggerStrategy
 {
