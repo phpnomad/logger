@@ -8,14 +8,12 @@ use PHPNomad\Logger\Interfaces\LoggerStrategy;
 
 trait CanLogException
 {
-    protected LoggerStrategy $loggerStrategy;
-
     public function logException(Exception $e, string $message = '', array $context = [], $level = null)
     {
         if(!$level){
             $level = LoggerLevel::Critical;
         }
 
-        $this->loggerStrategy->$level(implode(' - ', [$message, $e->getMessage()]), $context);
+        $this->$level(implode(' - ', [$message, $e->getMessage()]), $context);
     }
 }
