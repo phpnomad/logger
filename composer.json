@@ -26,9 +26,9 @@
     ],
     "require-dev": {
         "phpnomad/tests": "^0.1.0",
-        "phpnomad/facade": "dev-main",
-        "phpnomad/singleton": "dev-main",
-        "phpnomad/di": "dev-main"
+        "phpnomad/facade": "^1.0",
+        "phpnomad/singleton": "^1.0",
+        "phpnomad/di": "^1.0"
     },
     "config": {
         "allow-plugins": {
