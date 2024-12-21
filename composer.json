@@ -25,7 +25,7 @@
         }
     ],
     "require-dev": {
-        "phpnomad/tests": "^0.1.0",
+        "phpnomad/tests": "^0.1.0 || ^0.3.0",
         "phpnomad/facade": "^1.0",
         "phpnomad/singleton": "^1.0",
         "phpnomad/di": "^1.0"
