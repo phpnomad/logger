@@ -14,6 +14,7 @@ trait CanLogException
             $level = LoggerLevel::Critical;
         }
 
+        $context['exception'] = $e;
         $this->$level(implode(' - ', [$message, $e->getMessage()]), $context);
     }
 }
