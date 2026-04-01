@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bbf686679e2d02d9cfea31fde0eb7d83",
+    "content-hash": "b86ce14ef5f21efa960e494877bdacc9",
     "packages": [],
     "packages-dev": [
         {
@@ -950,23 +950,20 @@
         },
         {
             "name": "phpnomad/di",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/di.git",
-                "reference": "e1719564d580062ae5369b364ab1c8fd3acb2e53"
+                "reference": "71cf432571f405e96c30dab4cfbccc22462bcc67"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/di/zipball/e1719564d580062ae5369b364ab1c8fd3acb2e53",
-                "reference": "e1719564d580062ae5369b364ab1c8fd3acb2e53",
+                "url": "https://api.github.com/repos/phpnomad/di/zipball/71cf432571f405e96c30dab4cfbccc22462bcc67",
+                "reference": "71cf432571f405e96c30dab4cfbccc22462bcc67",
                 "shasum": ""
             },
-            "require": {
-                "phpnomad/utils": "^1.0"
-            },
             "require-dev": {
-                "phpnomad/tests": "^0.1.0"
+                "phpnomad/tests": "^0.1.0 || ^0.3.0"
             },
             "type": "library",
             "autoload": {
@@ -987,9 +984,9 @@
             "homepage": "https://github.com/phpnomad/core",
             "support": {
                 "issues": "https://github.com/phpnomad/di/issues",
-                "source": "https://github.com/phpnomad/di/tree/1.0.0"
+                "source": "https://github.com/phpnomad/di/tree/2.0.0"
             },
-            "time": "2024-12-18T17:09:23+00:00"
+            "time": "2026-03-31T15:22:46+00:00"
         },
         {
             "name": "phpnomad/facade",
@@ -1120,46 +1117,6 @@
                 "source": "https://github.com/phpnomad/tests/releases"
             },
             "time": "2023-10-30T20:42:09+00:00"
-        },
-        {
-            "name": "phpnomad/utils",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phpnomad/utils.git",
-                "reference": "bf47baea7ca6d5245f789fc93396d01f2ae5cc34"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/utils/zipball/bf47baea7ca6d5245f789fc93396d01f2ae5cc34",
-                "reference": "bf47baea7ca6d5245f789fc93396d01f2ae5cc34",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpnomad/tests": "^0.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "PHPNomad\\Utils\\": "lib/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Alex Standiford",
-                    "email": "alex@standiford.us"
-                }
-            ],
-            "homepage": "https://github.com/phpnomad/core",
-            "support": {
-                "issues": "https://github.com/phpnomad/utils/issues",
-                "source": "https://github.com/phpnomad/utils/tree/1.0.0"
-            },
-            "time": "2024-12-18T16:24:57+00:00"
         },
         {
             "name": "phpstan/extension-installer",
@@ -4805,10 +4762,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
-    "plugin-api-version": "2.6.0"
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
 }
